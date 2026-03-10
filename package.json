@@ -1,0 +1,24 @@
+{
+  "name": "pokemon_api",
+  "version": "1.0.0",
+  "description": "There are basically two types Javascript , CommonJS and ESM(ECMAScript Modules).",
+  "homepage": "https://github.com/kollcibe05-creator/POKEMON_API#readme",
+  "bugs": {
+    "url": "https://github.com/kollcibe05-creator/POKEMON_API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kollcibe05-creator/POKEMON_API.git"
+  },
+  "license": "ISC",
+  "author": "Collins Kibet",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.12"
+  }
+}
