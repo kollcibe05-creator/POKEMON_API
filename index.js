@@ -14,18 +14,3 @@ server.use(router);
 server.listen(port, () => {
   console.log(`JSON Server is running in ESM mode on port ${port}`);
 });
-
-
-// import { create, router as _router, defaults } from 'json-server'
-
-// const server = create()
-// const router = _router('db.json') // path to your data file
-// const middlewares = defaults()
-
-// server.use(middlewares)
-// server.use(router)
-
-// const PORT = process.env.PORT || 3000
-// server.listen(PORT, () => {
-//   console.log(`JSON Server is running on port ${PORT}`)
-// })
