@@ -1,6 +1,8 @@
-const jsonServer = require('json-server');
+
+import jsonServer from 'json-server'; //Yeah, the only diff!
+
 const server = jsonServer.create();
-const router = jsonServer.router('pokemon.json'); // Path to your data file
+const router = jsonServer.router('pokemon.json'); 
 const middlewares = jsonServer.defaults();
 
 // Get the port from Render's environment variable (or use 3000 locally)
@@ -10,5 +12,5 @@ server.use(middlewares);
 server.use(router);
 
 server.listen(port, () => {
-  console.log(`JSON Server v0.17.4 is running successfully on port ${port}`);
+  console.log(`JSON Server is running in ESM mode on port ${port}`);
 });
