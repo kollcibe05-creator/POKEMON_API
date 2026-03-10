@@ -58,3 +58,10 @@ npm init -y
 ```
 npm install json-server
 ```
+6. In Render, create a new Web Service.
+7. Connect it to your github repo.
+8. For the Settings, leave the other details blank except for: 
+```text
+Build Command: npm install 
+Start Command: npm start
+```
