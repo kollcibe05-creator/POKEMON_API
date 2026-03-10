@@ -58,10 +58,28 @@ npm init -y
 ```
 npm install json-server
 ```
+### Common Gotcha 
+CommonJS works on json-server version below **1.x**.
+
+To ensure it works you must use a stable version below the mark which is usually **0.17.4**.
+Therefore run the installation with the specification of the version:
+```code
+npm install json-server@0.17.4
+```
+
 6. In Render, create a new Web Service.
 7. Connect it to your github repo.
 8. For the Settings, leave the other details blank except for: 
+
+CommonJS: 
+
 ```text
 Build Command: npm install 
 Start Command: npm start
+```
+ECMScript Modules: 
+
+```text
+Build Command: npm install 
+Start Command: node index.js
 ```
