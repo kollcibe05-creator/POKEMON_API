@@ -134,7 +134,7 @@ Or:
 Build Command: npm install 
 Start Command: node index.js
 ```
-Interchangably they will still work though;
+Interchangably they will still work though,,,
 
 ### Heads Up
 There might be some cases where you may have to adjust the versions manually and as a result, the node_modules and package-lock.json may fall out of sync. When deploying you may as a result encounter errors like *'MODULE not found'* as a case.    
